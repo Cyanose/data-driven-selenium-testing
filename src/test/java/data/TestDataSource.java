@@ -12,7 +12,7 @@ public class TestDataSource {
 
         DatabaseUtils db = new DatabaseUtils();
 
-        db.openConenction("localhost",13306,"testData","root","dupsko");
+        db.openConenction("localhost",13306,"testData","root","password");
 
         String sqlQuery = "SELECT * from Users";
 

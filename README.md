@@ -12,4 +12,4 @@ In order to set the environment run: `./mysql_init.sh`
 
 In order to stop the docker container run: `docker stop mysql-docker-local`
 
-If you want to interact with the mysql-database from the cli, run: `mysql -uroot -pdupsko -h127.0.0.1 -P13306`
+If you want to interact with the mysql-database from the cli, run: `mysql -uroot -ppassword -h127.0.0.1 -P13306`
